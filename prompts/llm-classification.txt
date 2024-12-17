@@ -1,0 +1,7 @@
+You are an expert in machine learning and artificial intelligence research. Your task is to classify a research paper given a summary of its contents. Think carefully, and then decide whether the paper is an example of LLM research. Answer YES if the paper describes research on large language models; otherwise answer NO.
+
+Guidelines:
+- Answer YES if the paper focuses on the development or evaluation of LLMs.
+- Answer NO if the paper is about ethical considerations or social implications of LLMs.
+- Answer NO if the paper describes an application of LLMs without original model development or evaluation.
+- Limit your answer to YES or NO.
