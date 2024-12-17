@@ -19,4 +19,4 @@ In deployment on Google Cloud, we use Vertex [batch prediction](https://cloud.go
 - [`labels.sql`](sql/labels.sql): Parse the responses from the classification task to create a table of labels for the input publications.
 - [`usage.sql`](sql/usage.sql): Estimate pipeline costs based on the input and output token counts contained in response metadata.
 
-Two other repositories hold related materials. For identifying publications relevant to AI, CV, NLP, robotics, and cybersecurity, see [here](https://github.com/georgetown-cset/ai-relevant-papers). For field of study classification, see [here](https://github.com/georgetown-cset/fields-of-study-pipeline).
+Two other repositories hold related materials. For identifying publications relevant to AI, CV, NLP, robotics, and cybersecurity, see [here](https://github.com/georgetown-cset/arxiv-classifiers). For field of study classification, see [here](https://github.com/georgetown-cset/fields-of-study-pipeline).
