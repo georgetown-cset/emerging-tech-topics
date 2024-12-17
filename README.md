@@ -13,7 +13,7 @@ In deployment on Google Cloud, we use Vertex [batch prediction](https://cloud.go
 - [`udfs.sql`](sql/udfs.sql): Define UDFs for wrangling batch prediction inputs and outputs.
 - [`chip_corpus.sql`](sql/chip_corpus.sql) and [`llm_corpus.sql`](sql/llm_corpus.sql): Create tables holding the scholarly literature that we'll generate predictions for, given titles and abstracts.
 - [`summary_inputs.sql`](sql/summary_inputs.sql): Create a table of [batch prediction requests](https://cloud.google.com/vertex-ai/generative-ai/docs/multimodal/batch-prediction-gemini#bigquery).
-- Run the first batch job, yielding one-sentence predictions for each publication.
+- Run the first batch job, yielding one-sentence summaries for each publication.
 - [`classify_inputs.sql`](sql/classify_inputs.sql): Create a table of batch prediction requests for the classification task.
 - Run the second batch job for predicted relevance.
 - [`labels.sql`](sql/labels.sql): Parse the responses from the classification task to create a table of labels for the input publications.
